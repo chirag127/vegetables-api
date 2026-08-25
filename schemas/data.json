@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chirag127.github.io/vegetables/schemas/data.json",
+  "title": "Vegetables",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "status",
+      "source"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "source": {
+        "type": "string"
+      }
+    }
+  }
+}

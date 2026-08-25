@@ -1,0 +1,11 @@
+{
+  "byId": {
+    "vegetables": {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "status": "scaffold",
+      "source": "Public data"
+    }
+  },
+  "searchableFields": []
+}
